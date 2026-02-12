@@ -13,6 +13,7 @@ Total Records: 8807
 Total Columns: 12
 
 **Data Cleaning Steps Performed**
+
 1️)Initial Exploration
 Used df.head(), df.info(), and df.isnull().sum()
 Identified missing values in director, cast, country, date_added, rating, and duration
@@ -29,16 +30,19 @@ Checked using df.duplicated().sum()
 No duplicate rows found
 
 4️)Standardization
+
 Renamed columns to lowercase and removed spaces
 Removed extra spaces from text columns
 Converted date_added to datetime format
 
 *Final Output*
+
 Cleaned dataset saved as netflix_cleaned.csv
 Dataset contains no missing values
 Ready for further analysis or visualization
 
 *Tools Used*
+
 Python
 Pandas
 Jupyter Notebook
